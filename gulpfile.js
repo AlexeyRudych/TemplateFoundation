@@ -78,7 +78,7 @@ gulp.task('send', ['build', 'images'], function() {
 });
 
 //CONVERTE INKY
-gulp.task('inky', function() {
+gulp.task('inky', ['styles'], function() {
   return gulp.src('./app/**/*.html')
     .pipe(inlinesource())
     .pipe(inky())
@@ -91,7 +91,6 @@ gulp.task('inky', function() {
 
 //watchers
 gulp.task('watch', function () {
-	gulp.watch('./app/sass/**/*.sass', ['styles']);
     gulp.watch('./app/**/*.html', ['inky']);
 });
 
