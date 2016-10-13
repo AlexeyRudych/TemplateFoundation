@@ -1,0 +1,19 @@
+{
+  "name": "newtemplate",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Alex <ponomarenko.prog@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
