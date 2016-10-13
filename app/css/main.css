@@ -1,3 +1,13 @@
 p {
-  font-size: 50px !important;
-  color: red; }
+  font-size: 20px;
+  color: red;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-shadow: 0 0 2px -21px;
+  box-shadow: 0 0 2px -21px; }

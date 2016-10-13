@@ -92,6 +92,7 @@ gulp.task('inky', ['styles'], function() {
 //watchers
 gulp.task('watch', function () {
     gulp.watch('./app/**/*.html', ['inky']);
+    gulp.watch('./app/sass/**/*.sass', ['inky']);
 });
 
 gulp.task('start', ['serv', 'watch']);
